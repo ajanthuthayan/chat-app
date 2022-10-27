@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import StartButton from "./components/StartButton";
+import JoinForm from "./components/JoinForm";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -9,7 +9,7 @@ function App() {
 		<div className="App">
 			<h1>Chat App</h1>
 			<div className="card">
-				<StartButton />
+				<JoinForm />
 			</div>
 		</div>
 	);
